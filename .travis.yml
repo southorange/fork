@@ -1,4 +1,7 @@
 language: node_js
  - "4.2.2"
+ - "lts"
+ - "latest"
+ - "iojs"
 script: pip install -r requirements.txt
 script: sh ./deploy.sh
