@@ -5,3 +5,4 @@ language: node_js
  - "iojs"
 script: pip install -r requirements.txt
 script: sh ./deploy.sh
+sudo: required
